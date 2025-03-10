@@ -1,0 +1,2 @@
+# desafiomovixadrez.c
+atividade escolar
