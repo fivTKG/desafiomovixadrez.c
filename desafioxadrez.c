@@ -5,6 +5,7 @@ int main(){
     int torre;
     int bispo = 0;
     int rainha = 0;
+    int cavalo = 0;
 
     printf("\nPeça: Torre! \n");
 
@@ -30,6 +31,18 @@ int main(){
         rainha++;
     }
     while (rainha < 8);
+
+    //estrutura em while para o cavalo
+    printf("\nPeça: Cavalo\n");
+    while(cavalo == 0)
+        {
+        for(int i = 1; i <= 2; i++)
+        {
+            printf("Baixo!\n");
+        }
+            printf("Esquerda!\n");
+        cavalo++;
+        }
 
 
 return 0;
